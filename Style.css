@@ -42,7 +42,7 @@ a.button {
   }
   
   a.button:hover {
-    background-color: darkred;
+    background-color: rgb(160, 127, 127);
     transform: scale(1.25) perspective(1px);
     color: white;
   }
@@ -93,31 +93,54 @@ a.button {
   margin-left: 10px;
  }
 
+ .main1 {
+  width: 1200px;
+  height: 550px
+  /* margin: 0 auto; 
+  overflow: auto;*/
+}
+
+.main2 {
+  width: 350px;
+  margin: 0 auto;
+  overflow: auto;
+}
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}       
 
 
  .column-3-left {
-  width: 270px;
+  width: 200px;
   background-color: lightgrey;
-  padding: 20px;
+  padding: 15px;
   border: 5px solid black;
   float: left;
+  margin-right: 10px 
   
 }
 
 .column-3-middle {
-  width: 270px;
+  width: 375px;
   background-color: lightgrey;
   padding: 20px;
   border: 5px solid black;
-  float: left;
+  float: middle; 
+  margin-left: 1px; 
+  margin-right: 1px;
   }
 
 .column-3-right {
-  width: 270px;
+  width: 200px;
   background-color: lightgrey;
-  padding: 20px;
+  padding: 15px;
   border: 5px solid black;
   float: right;
+  margin-left: 10px; 
+  
  }
 
  
