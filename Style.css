@@ -27,7 +27,7 @@ font: black;
 a.button {
   -webkit-appearance: button;
   -moz-appearance: button;
-  appearance: button;
+  appearance: button; 
   text-decoration: lightpink;
   font-size: xxlarge; 
   color: black;
@@ -49,9 +49,9 @@ a.button {
 
 
 .silly {
-  align-content: auto;
- font-size: xx-large;
- align-self: center;
+ align-content: auto;
+ font-size: 50px;
+ text-align: center;
 }
 
 .music {
@@ -94,16 +94,19 @@ a.button {
  }
 
  .main1 {
-  width: 1200px;
-  height: 550px
-  /* margin: 0 auto; 
-  overflow: auto;*/
+  background-color:black;
+  width: 960px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: auto;
 }
 
 .main2 {
-  width: 350px;
-  margin: 0 auto;
-  overflow: auto;
+  width: 360px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 1px 1px 1px 1px;
+  
 }
  .center {
   display: block;
@@ -114,36 +117,62 @@ a.button {
 
 
  .column-3-left {
-  width: 200px;
+  width: 210px;
+  height: 400px;
   background-color: lightgrey;
-  padding: 15px;
-  border: 5px solid black;
+  padding: 5px;
+  border: 20px solid black;
   float: left;
-  margin-right: 10px 
-  
+  margin-right: 10px;
 }
 
 .column-3-middle {
-  width: 375px;
+  width: 365px;
+  height: 468px;
   background-color: lightgrey;
-  padding: 20px;
-  border: 5px solid black;
-  float: middle; 
-  margin-left: 1px; 
+  padding: 1px;
+  border: 10px solid black;
+  float: left;
+  margin-left: 1px;
   margin-right: 1px;
   }
 
+  
+
 .column-3-right {
-  width: 200px;
+  width: 210px;
+  height: 400px;
   background-color: lightgrey;
-  padding: 15px;
-  border: 5px solid black;
+  padding: 5px;
+  border: 20px solid black;
   float: right;
-  margin-left: 10px; 
+  margin-left: 10px;
   
  }
+.text {
+  text-align: center;
+  font-size: 15px;
+}
+.column-3-middle-silly {
+  width: 450px;
+  height: 410px;
+  background-color: lightgrey;
+  padding: 5px;
+  border: 10px solid black;
+  float: middle;
+  margin-left: 250px;
+  margin-right: 250px;
+  }
 
- 
+  .column-3-left-silly  {
+    width: 210px;
+    height: 410px;
+    background-color: lightgrey;
+    padding: 5px;
+    border: 10px solid black;
+    float: left;
+    margin-right: 10px;
+  }
 /*  
 .buttons {
   display:column
@@ -153,3 +182,33 @@ a.button {
   font-family: lobster;
 }
 
+.button-silly {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: lightpink;
+  font-size: 30px; 
+  color: black;
+  
+    margin-left: 50px;
+    height:55px;
+    width:350px;
+    background: lightgray;
+    border: 10px solid black;
+    list-style: none;
+    text-align: center;
+  }
+  .main3 {
+    background-color:black;
+    width: 760px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .p3{ 
+    font-size:5rem;
+    width:100%;
+    text-align:left;
+    vertical-align: center;
+  }
