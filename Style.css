@@ -5,9 +5,9 @@ html {
 hr{
   border-style: none;
   border-top-style: dotted;
-  border-color: gray;
+  border-color: red;
   border-width: 5px;
-  width: 15%;
+  width: 55%;
 }
 
 a{
@@ -129,6 +129,19 @@ a.button {
   float: right;
   margin-left: 5px;
  }
+
+ 
+.column-2-middle {
+  width: 900px;
+  height: 450px;
+  background-color: turquoise;
+  padding: 7px;
+  border: 10px solid black;
+  float: left;
+  margin-left: 1px;
+  margin-right: 1px;
+  }
+
 .column-5-left {
   width: 126px;
   background-color: lightgrey;
@@ -235,7 +248,7 @@ a.button {
 
  .column-3-left {
   width: 210px;
-  height: 400px;
+  height: 420px;
   background-color: black;
   padding: 5px;
   border: 20px solid black;
@@ -258,7 +271,7 @@ a.button {
 
 .column-3-right {
   width: 210px;
-  height: 400px;
+  height: 420px;
   background-color: black;
   padding: 5px;
   border: 20px solid black;
@@ -377,14 +390,15 @@ a.button {
 
 .container {
   height: 200px;
-  /* position: relative; */
-  /* background-color: black; */
+  position: relative; 
+  background-color: black;
   border: 2px solid rgb(167, 13, 13);
+  
 }
 
 .vertical-center {
   margin: 0;
-  /* position: absolute; */
+  position: absolute; 
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -397,3 +411,4 @@ a.button {
 .p5{
 color: yellow;
 }
+
