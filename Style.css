@@ -1,6 +1,6 @@
 html {
   background-color: black;
-  font-family: Rockwell; 
+  font-family: Tahoma; 
 }
 hr{
   border-style: none;
@@ -9,9 +9,14 @@ hr{
   border-width: 5px;
   width: 55%;
 }
-
+.t4{
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
 a{
   padding:10px;
+  margin-top: 20px;
 }
 
 body { 
@@ -50,7 +55,6 @@ a.button {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button; 
-  text-decoration: lightpink;
   font-size: xxlarge; 
   color: black;
   
@@ -91,6 +95,7 @@ a.button {
   border: 5px solid black;
   float: top;
   margin-top: 5px;
+  vertical-align: auto;
 }
 
 .row-5-middle {
@@ -116,20 +121,31 @@ a.button {
  .column-2-left {
   width: 400px;
   background-color: lightgrey;
-  padding: 20px;
+  padding: 5px;
   border: 5px solid black;
   float: left;
   margin-right: 5px;
 }
 .column-2-right {
-  width: 520px;
+  width: 400px;
   background-color: lightgrey;
-  padding: 20px;
+  padding: 5px;
   border: 5px solid black;
   float: right;
   margin-left: 5px;
  }
 
+  
+.column-1 {
+  width: 900px;
+  height: 50px;
+  background-color: turquoise;
+  padding: 1px;
+  border: 1px solid black;
+  float: left;
+  margin-left: 1px;
+  margin-right: 1px;
+  }
  
 .column-2-middle {
   width: 900px;
@@ -330,6 +346,7 @@ a.button {
  
   .p1 {
     direction: row;
+    float: center;
 
    }
 .buttons {
@@ -411,4 +428,9 @@ a.button {
 .p5{
 color: yellow;
 }
+.p6{
+  font-size: 10px;
+  font-family: Tahoma;
+  display: inline-block;
+  }
 
