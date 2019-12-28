@@ -244,15 +244,13 @@ a.button {
   inline-size: auto;
   
 }
-.imgdiv {
+.img {
   width: 180px;
   height: 140px;
   border: 2px solid turquoise;
   margin: 1px 1px 1px 1px;
   float: center;
-
-
-
+  
 }
  .center {
   display: block;
@@ -433,4 +431,7 @@ color: yellow;
   font-family: Tahoma;
   display: inline-block;
   }
-
+.c2div{
+  text-align: auto;
+  align-items: center;
+}
