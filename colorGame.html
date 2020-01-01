@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>New Car</title>
+    <style>
+        .container{
+            background-color: white;
+            height:400px;
+            width:400px;
+            padding: 10px;
+            border:2px black solid;
+            margin: 10px 400px;
+        }
+
+html{
+    font-family: Arial;
+}
+
+        .cube{
+            background-color: white;
+            height:240px;
+            width:300px;
+            border:2px black solid;
+            margin:20px 45px 5px 45px;
+         
+        }
+button{
+    border: 3px red ridge;
+}
+        .p1{
+            font-family: Tahoma;
+            font-size: 100px;
+            color: darkmagenta;
+            text-shadow: black;
+        }
+        .p2{
+            font-family: Tahoma;
+            font-size:20px;
+            color:darkslateblue;
+        }
+           
+    </style>
+    </head>
+    <body>
+
+        <p1 class="p1">You just won a new car!*</p1>
+        <h2>*But the color will be determined by the click of the button below.</h2>
+        <div class="container">
+            <p2 class="p2"><strong>Click the button once to discover the color of your new car!</strong></p2>
+             <p><button id="button1">Car Color...</button></p> 
+        <div class="cube" id="carcolor">
+        </div>
+        </div>
+
+       
+        <script>
+           let color ='rgb(18, 149,68)';
+           document.getElementById("button1").onclick = function(){
+            document.getElementById ("carcolor").style.backgroundColor = color;
+           }
+           let x, y, z, carColor;
+           document.getElementById("button1").onclick = function(){
+            x = Math.round(Math.random()* 256);
+            y = Math.round(Math.random()* 256);
+            z = Math.round(Math.random()* 256);  
+            carColor = 'rgb(' + x + ', ' + y + ', ' + z + ')';
+            document.getElementById("carcolor").style.backgroundColor= carColor;
+            document.getElementById("carcolor").innerHTML = '<p>' + carColor + '</p>';
+           }
+
+           
+          </script>
+
+<button><a href="index.html">Back to Main Page</a></button>
+
+
+
+    </body>
+</html>
