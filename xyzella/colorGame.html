@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Color Picker</title>
+    <style>
+        
+        .container{
+            background-color: gainsboro;
+            height:300px;
+            width:400px;
+            padding: 10px;
+            border:3px purple dotted;
+            margin: 10px 400px;
+            align-content: center;
+            
+        }
+
+html{
+    font-family: Arial;
+    max-width: 1200px;
+}
+
+        .cube{
+            background-color: white;
+            height:200px;
+            width:300px;
+            border:4px black solid;
+            margin:20px 45px 5px 45px;
+         
+        }
+button{
+    border: 3px red ridge;
+}
+.button1{
+    border: 5px red ridge;
+}
+        .p1{
+            font-family: Tahoma;
+            font-size: 60px;
+            color: rgb(56, 2, 56);
+            text-shadow: black;
+    
+        }
+        .p2{
+            font-family: Tahoma;
+            font-size:20px;
+            color:darkslateblue;
+            text-align: center;
+        }
+        .main1{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            border: 5px darkblue ridge;
+            align-items:center;
+            background-color: rgb(232, 239, 247);
+            text-align: center;
+        }
+           
+    </style>
+    </head>
+    <body>
+        <div class="main1">
+
+        <p1 class="p1">Color Game</p1>
+        <br>
+        <p2 class="p2"><strong>Pretend you just won the car of your dreams.</strong>
+            <br>
+            <br>
+        <p2> The only catch is that the color of the car must be selected using a random color selector.</p2>
+        <br>
+        <br>
+        <p2><strong>Click the button once to discover the color of your new car!</strong></p2>
+            
+        
+
+        <br>
+        <br>
+        <div class="container">
+            
+             <p><button id="button1">Car Color...</button></p> 
+        <div class="cube" id="carcolor">
+        </div>
+        </div>
+
+       
+        <script>
+           let color ='rgb(18, 149,68)';
+           document.getElementById("button1").onclick = function(){
+            document.getElementById ("carcolor").style.backgroundColor = color;
+           }
+           let x, y, z, carColor;
+           document.getElementById("button1").onclick = function(){
+            x = Math.round(Math.random()* 256);
+            y = Math.round(Math.random()* 256);
+            z = Math.round(Math.random()* 256);  
+            carColor = 'rgb(' + x + ', ' + y + ', ' + z + ')';
+            document.getElementById("carcolor").style.backgroundColor= carColor;
+            document.getElementById("carcolor").innerHTML = '<p>' + carColor + '</p>';
+           }
+
+           
+          </script>
+
+<button><a href="index.html">Back to Main Page</a></button>
+<br>
+<br>
+
+
+</div>
+    </body>
+</html>

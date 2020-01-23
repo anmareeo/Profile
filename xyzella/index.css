@@ -1,0 +1,435 @@
+html {
+    max-width: 1300px;
+    max-height: 500px;
+    }
+
+   
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+    
+    #box{
+        align-items: center;
+        
+        border: 2px navy solid;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+      
+      }
+
+      .container{
+        /* background-color: rgb(94, 98, 102); */
+        background-color: rgb(248, 235, 223);
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-height: 575px;
+        border: 3px navy solid;
+        min-height: 500px;
+      }
+   
+    .container > div{
+        background-color:gainsboro;
+        color: aliceblue;
+        text-align: center;
+        padding: 5px 30px;
+        margin: 1px;
+        border: 3px navy solid;
+        align-items: stretch;
+    }
+
+    .container2{
+        /* background-color: rgb(94, 98, 102); */
+        background-color: rgb(248, 235, 223);
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 640px;
+        border: 3px navy solid;
+      }
+    
+    #header{
+        height: 100px;
+        padding: 10px 0px;
+    }
+    #brand{
+        float: right;
+    }
+    h2 a{
+        font-size: 50px;
+        font-weight: 100;
+        color: blue;
+        text-decoration: none;
+    }
+
+    #text3{
+        font-size:47px;
+        color: rgb(88, 139, 190);
+        font-weight: normal;
+        text-shadow: 2px 1px 1px black;
+        padding-top: 10px;
+        padding-bottom: -40px;
+        
+    }
+    #text4{
+        font-size:45px;
+        color: rgb(88, 139, 190);
+        font-weight: normal;
+        text-shadow: 2px 1px 1px black;
+        padding-bottom: 10px;
+        padding-top: -40px;
+    }
+
+    
+    #searchBox{
+        float: right;
+        width: 300px;
+        height: 3;
+        padding: 1px 20px;
+      
+    }
+    
+    #text{
+        float: right;
+        width:200px;
+        padding:5px;
+        font-size:15px;
+        color: blue;
+        background: white url(Magnifying\ Glass.png) right center no-repeat;
+        border: 1px solid navy;
+      
+    }
+    
+    .submit{
+        float: right;
+        padding: 5px;
+        font-weight: bold;
+        color: black;
+        background: gray;
+        font-size: 15px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    #menu{
+        height: 80px;
+        background-color: gainsboro;
+        padding: 1px 20px 3px 20px;
+        text-align: center;
+        margin-top: 5px;
+        
+    }
+    ul{
+        list-style:none;
+    }
+    #menu  ul li{
+        float: left;
+        padding: 0 10px;
+        height: 20px;
+        border-right: 1px darkblue;
+        line-height: 30px;
+        margin-left: -10px;
+
+        
+    }
+    
+    #menu ul li:last-child{
+        border-right: none;
+    }
+    
+    #menu ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: rgb(73, 122, 172);
+        text-shadow: 1px 1px black;
+        transition: font-size .3s ease;
+        margin-left: -10px;
+    }
+    
+    #menu ul li a:hover, #menu ul li a:active{
+        font-size: 20px;
+        font-weight: bold;
+        color: navy;
+    }
+    
+    #introduction{
+        padding-top: -25px;
+        margin:16px 0;
+        text-align: center;
+        max-height: 460px;
+        padding-bottom: 15px;
+        float:top;
+    
+    }
+    
+    #introduction h1{
+        font-size:45px;
+        color: rgb(88, 139, 190);
+        font-weight: normal;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    #introduction p{
+        font-size: 25px;
+        color: navy;
+        text-align: justify;
+    }
+    * {
+        box-sizing:border-box;
+    }
+    
+    .flexbox{
+        height:200px; 
+        margin: -10px 10px 40px 10px;
+        float: center;
+        padding-left:100px;
+        padding-right:50px;
+        padding-bottom: 100px;
+        
+    
+    }
+    
+    .flexbox > img{
+        text-align: center;
+        padding:30px;
+        margin:10px;
+        float: center;
+        
+    
+    }
+    
+    .sidebar{
+        height: 600px;
+        width: 470px;
+        border: 1px solid darkblue;
+        border-radius: 20px;
+        padding: 10px 30px;
+    }
+    
+    #leftsidebar{
+        float: left;
+    
+    }
+    
+    #rightsidebar{
+        float: right;
+    }
+    
+    .sidebar h3{
+        color: darkblue;
+        font-size: 30px;
+    
+    }
+    .sidebar ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: blue;
+    }
+    
+    .sidebar ul li a:hover, .sidebar ul li a:active{
+        text-decoration: none;
+        color:blue;
+        font-size:23px;
+        font-weight:bold;
+    
+    }
+    
+    .sidebar ul{
+        padding-top: 5px;
+    }
+    #leftsidebar ul li{
+        padding-bottom: 6px;
+        padding-left: 10px;
+        list-style-image: url(arrow.png);
+    }
+    
+    #rightsidebar ul li{
+        padding-bottom: 12px;
+        list-style-image: url(checkmark.png);
+    }
+    
+    #credit{
+        /* height:100px; */
+        /* width: 420px; */
+        align-content: center;
+        padding: 2px;
+        margin-top:-30px;
+    
+    }
+    
+    #credit h6{
+        padding: none;
+        margin-bottom: 2px;
+    
+    }
+    
+    #credit button{
+        padding: 2px;
+        float: right;
+        border-radius:5px;
+        
+     }
+    
+     .footer{
+         height:12 0px;
+         background: lightskyblue;
+         padding: 10px 30px;
+         margin-top:30px;
+         border-radius:20px;
+     }
+
+     .main {
+        background-color:black;
+        width: 960px;
+        height: 500;
+        margin: 0 auto;
+        overflow: auto;
+        text-align: center;
+        
+      }
+      
+      .column-1 > music {
+        display: flex;
+        margin-top: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-size: 20px;
+        font: black;
+        text-align: center;
+        float: top;
+        } 
+        
+      .column-1 {
+        width: 950 px;
+        background-color: gainsboro;
+        padding: 1px;
+        border: 1px solid black;
+        float: left;
+        margin-left: 1px;
+        margin-right: 1px;
+        }
+      
+      
+      .container2 > row-5-left {
+        height: 20px;
+        background-color: lightgrey;
+        padding: 5px;
+        border: 5px solid black;
+        float: top;
+     
+      }
+      
+      .container2 > row-5-middle {
+        height: 20px;
+        background-color: lightgrey;
+        padding: 5px;
+        border: 5px solid black;
+        float: top;
+        
+      }
+      
+      .container2 > row-5-right {
+        height: 20px;
+        background-color: lightgrey;
+        padding: 5px;
+        border: 5px solid black;
+        float: bottom;
+        
+      
+       }
+       
+
+      
+       #text3 {
+        text-align: left;
+       }
+      
+       #p4{
+        font-size: 55px;
+        padding: 5px;
+        color: rgb(88, 139, 190);
+        font-weight: normal;
+        text-shadow: 2px 1px 1px black;
+      }
+      
+      .container2{
+        background-color: gainsboro;
+        color: aliceblue;
+        max-width: 1200px;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+      }
+      
+      .container2 > div{
+        background-color:gainsboro;
+        color: aliceblue;
+        text-align: center;
+        padding: 10px;
+        margin: 1px;
+        border: 3px navy solid;
+      }
+        .button {
+            appearance: button; 
+            font-size: xxlarge; 
+            color: aliceblue;
+            
+              margin-left: 0px; 
+              height: 7px;
+              width: 30px;
+              background-color: rgb(88, 139, 190);
+              font-weight: normal;
+              list-style: none;
+              text-align: center;
+              font-size: medium;
+              
+            }
+            
+            a.button:hover {
+                background-color: rgb(248, 235, 223);
+              transform: scale(1.0) perspective(1px);
+              color: black;
+            }
+      
+            #p1 {
+                direction: row;
+                float: center;
+            
+               }
+          
+               .button-silly2 {
+                -webkit-appearance: button;
+                -moz-appearance: button;
+                appearance: button;
+                height:38 px;
+                width:177px;
+                background-color: rgb(248, 235, 223);
+                font-size: 20px; 
+                color: black;
+                margin-left: 13px;
+                margin-bottom: 21px; 
+                margin-top: 21px;
+                margin-right: 16px; 
+                align-content: center;
+            }
+                   
