@@ -138,7 +138,7 @@ html {
     
     #menu{
         height: 80px;
-        background-color: gainsboro;
+        background-color: rgb(248, 235, 223)
         padding: 1px 20px 3px 20px;
         text-align: center;
         margin-top: 5px;
